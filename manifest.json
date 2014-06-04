@@ -1,0 +1,14 @@
+{
+    "name": "Segmenter",
+    "version": "0.1.0",
+    "permissions": [
+        "contextMenus",
+        "clipboardWrite"
+    ],
+    "background": {
+        "scripts": [
+            "segmenter.js"
+        ]
+    },
+    "manifest_version": 2
+}
