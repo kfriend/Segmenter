@@ -8,7 +8,7 @@ var parseSegments = function(string) {
     a.href = string;
 
     var segments = a.pathname.split('/')
-        .map(function(seg) { return seg.trim(); })
+        .map(function(seg) { return decodeURIComponent(seg).trim(); })
         .filter(function(seg) { return seg !== ''; });
 
     return segments;
