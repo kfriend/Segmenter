@@ -1,6 +1,3 @@
-// TODO
-// Add support, via contextMenus.create() callback, for a "Copy segment >" parent menu, with children menus
-// Add support for setting keyboard combo?
 
 var parseSegments = function(string) {
     // Create an anchor tag and let the DOM handle parsing the provided URL

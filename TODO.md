@@ -1,0 +1,2 @@
+- Add support for a "Copy segment >" parent menu, with children menus being the different segments?
+- Add support for setting keyboard combo? Would require an interface an such.
